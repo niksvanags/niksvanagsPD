@@ -1,0 +1,36 @@
+h1 {
+    color: rgb(112, 178, 216);
+}
+#main-container {
+    background-color: rgb(145, 113, 65);
+    display:flex;
+}
+#side-content {
+width: 30%;
+}
+#photo-container {
+    display: grid;
+    gap:10px;
+    width: 70%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+}
+.photo img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
+.photo {
+grid-column: span 2; 
+
+}
+header {
+background-color:rgb(4, 59, 148);
+text-align: center;
+}
+nav {
+background-color: rgb(19, 137, 141);
+text-align: center;
+column: rgb(175, 150, 150);
+
+}
